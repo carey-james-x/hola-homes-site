@@ -1,31 +1,125 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://holahomesmx.com/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/es/</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/"/>
   </url>
   <url>
     <loc>https://holahomesmx.com/buy-property-mexico-city.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/buy-property-mexico-city.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/buy-property-mexico-city.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/buy-property-mexico-city.html"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/es/buy-property-mexico-city.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/buy-property-mexico-city.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/buy-property-mexico-city.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/buy-property-mexico-city.html"/>
   </url>
   <url>
     <loc>https://holahomesmx.com/cdmx-rentals.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/cdmx-rentals.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/cdmx-rentals.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/cdmx-rentals.html"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/es/cdmx-rentals.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/cdmx-rentals.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/cdmx-rentals.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/cdmx-rentals.html"/>
   </url>
   <url>
     <loc>https://holahomesmx.com/sell-apartment-cdmx.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/sell-apartment-cdmx.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/sell-apartment-cdmx.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/sell-apartment-cdmx.html"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/es/sell-apartment-cdmx.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/sell-apartment-cdmx.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/sell-apartment-cdmx.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/sell-apartment-cdmx.html"/>
   </url>
   <url>
     <loc>https://holahomesmx.com/condesa-real-estate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/condesa-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/condesa-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/condesa-real-estate.html"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/es/condesa-real-estate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/condesa-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/condesa-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/condesa-real-estate.html"/>
   </url>
   <url>
     <loc>https://holahomesmx.com/roma-norte-apartments.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/roma-norte-apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/roma-norte-apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/roma-norte-apartments.html"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/es/roma-norte-apartments.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/roma-norte-apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/roma-norte-apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/roma-norte-apartments.html"/>
   </url>
   <url>
     <loc>https://holahomesmx.com/juarez-real-estate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/juarez-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/juarez-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/juarez-real-estate.html"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/es/juarez-real-estate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/juarez-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/juarez-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/juarez-real-estate.html"/>
   </url>
   <url>
     <loc>https://holahomesmx.com/roma-sur-apartments.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/roma-sur-apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/roma-sur-apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/roma-sur-apartments.html"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/es/roma-sur-apartments.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/roma-sur-apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/roma-sur-apartments.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/roma-sur-apartments.html"/>
   </url>
   <url>
     <loc>https://holahomesmx.com/polanco-real-estate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/polanco-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/polanco-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/polanco-real-estate.html"/>
   </url>
-  <url><loc>https://holahomesmx.com/financing-guide.html</loc></url>
+  <url>
+    <loc>https://holahomesmx.com/es/polanco-real-estate.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/polanco-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/polanco-real-estate.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/polanco-real-estate.html"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/financing-guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/financing-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/financing-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/financing-guide.html"/>
+  </url>
+  <url>
+    <loc>https://holahomesmx.com/es/financing-guide.html</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/financing-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/financing-guide.html"/>
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/financing-guide.html"/>
+  </url>
+  <url><loc>https://holahomesmx.com/renting-in-mexico-city.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/renting-in-mexico-city.html"/><xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/renting-in-mexico-city.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/renting-in-mexico-city.html"/></url>
+  <url><loc>https://holahomesmx.com/es/renting-in-mexico-city.html</loc><xhtml:link rel="alternate" hreflang="en" href="https://holahomesmx.com/renting-in-mexico-city.html"/><xhtml:link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/renting-in-mexico-city.html"/><xhtml:link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/renting-in-mexico-city.html"/></url>
 </urlset>

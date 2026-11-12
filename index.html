@@ -6,34 +6,106 @@
   <title>Hola Homes Mexico | CDMX Real Estate in Condesa, Roma Norte & Roma Sur</title>
   <meta name="description" content="Hola Homes helps international and local buyers, renters, and sellers navigate Condesa, Roma Norte, Juárez, Roma Sur, Polanco, and central Mexico City real estate.">
   <link rel="canonical" href="https://holahomesmx.com/">
+  <link rel="alternate" hreflang="en" href="https://holahomesmx.com/">
+  <link rel="alternate" hreflang="es" href="https://holahomesmx.com/es/">
+  <link rel="alternate" hreflang="x-default" href="https://holahomesmx.com/">
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="styles.css">
   <script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "RealEstateAgent",
+  "name": "Hola Homes Mexico",
+  "url": "https://holahomesmx.com",
+  "email": "sulibeth0310@gmail.com",
+  "telephone": "+525533219014",
+  "areaServed": [
     {
-      "@context": "https://schema.org",
-      "@type": "RealEstateAgent",
-      "name": "Hola Homes Mexico",
-      "url": "https://holahomesmx.com",
-      "email": "susana@holahomesmx.com",
-      "telephone": "+525533219014",
-      "areaServed": [
-        "Condesa, Mexico City",
-        "Roma Norte, Mexico City",
-        "Juárez, Mexico City",
-        "Roma Sur, Mexico City",
-        "Polanco, Mexico City"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "addressLocality": "Mexico City",
-        "addressCountry": "MX"
-      },
-      "sameAs": [
-        "https://www.instagram.com/hola.homes.mexico/"
-      ]
+      "@type": "Place",
+      "name": "Condesa, Mexico City"
+    },
+    {
+      "@type": "Place",
+      "name": "Roma Norte, Mexico City"
+    },
+    {
+      "@type": "Place",
+      "name": "Juárez, Mexico City"
+    },
+    {
+      "@type": "Place",
+      "name": "Roma Sur, Mexico City"
+    },
+    {
+      "@type": "Place",
+      "name": "Polanco, Mexico City"
+    },
+    {
+      "@type": "Place",
+      "name": "Hipódromo, Mexico City"
+    },
+    {
+      "@type": "Place",
+      "name": "Escandón, Mexico City"
     }
+  ],
+  "address": {
+    "@type": "PostalAddress",
+    "addressLocality": "Ciudad de México",
+    "addressRegion": "CDMX",
+    "addressCountry": "MX"
+  },
+  "sameAs": [
+    "https://www.instagram.com/hola.homes.mexico/"
+  ],
+  "@id": "https://holahomesmx.com/#agency",
+  "description": "Bilingual real estate agency helping international and local clients buy, rent and sell homes in Condesa, Roma Norte, Juárez, Roma Sur and Polanco, Mexico City.",
+  "image": "https://holahomesmx.com/assets/images/roma-architecture.webp",
+  "logo": "https://holahomesmx.com/assets/images/susana-cruz-headshot.jpeg",
+  "knowsLanguage": [
+    "en",
+    "es"
+  ],
+  "slogan": "Making Mexico Home",
+  "founder": {
+    "@type": "Person",
+    "name": "Susana Cruz",
+    "jobTitle": "Founder and licensed real estate agent",
+    "image": "https://holahomesmx.com/assets/images/susana-cruz-headshot.jpeg"
+  },
+  "makesOffer": [
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Buyer representation in Mexico City"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Apartment rentals for expats in CDMX"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Selling and renting out apartments in CDMX"
+      }
+    },
+    {
+      "@type": "Offer",
+      "itemOffered": {
+        "@type": "Service",
+        "name": "Free guide: financing a home in Mexico City"
+      }
+    }
+  ]
+}
   </script>
 </head>
 <body>
@@ -44,7 +116,7 @@
     </a>
     <div class="language-switcher" aria-label="Language selector">
       <button class="is-active" type="button" data-lang-switch="en" aria-pressed="true">EN</button>
-      <button type="button" data-lang-switch="es" aria-pressed="false">ES</button>
+      <button type="button" data-lang-switch="es" aria-pressed="false" data-href="es/index.html">ES</button>
     </div>
     <button class="nav-toggle" type="button" aria-expanded="false" aria-controls="site-nav" aria-label="Open navigation">
       <span></span>
@@ -78,9 +150,9 @@
       </div>
       <div class="hero-panel" aria-label="Condesa, Roma Norte, and central Mexico City lifestyle collage">
         <div class="hero-slider" aria-hidden="true">
-          <img class="hero-slide slide-one" src="assets/images/condesa-cafe-street.jpeg" alt="">
-          <img class="hero-slide slide-two" src="assets/images/roma-architecture.webp" alt="">
-          <img class="hero-slide slide-three" src="assets/images/patio-home.webp" alt="">
+          <img class="hero-slide slide-one" src="assets/images/condesa-cafe-street.jpeg" alt="Café street in Condesa, Mexico City">
+          <img class="hero-slide slide-two" src="assets/images/roma-architecture.webp" alt="Historic architecture in Roma Norte, Mexico City">
+          <img class="hero-slide slide-three" src="assets/images/patio-home.webp" alt="Bright patio of a home in central Mexico City">
         </div>
       </div>
     </section>
@@ -314,7 +386,7 @@
         <h2 id="location-title" class="section-title" data-en="Based in Mexico City. Built around local relationships." data-es="Con base en Ciudad de México. Construido desde relaciones locales.">Based in Mexico City. Built around local relationships.</h2>
         <p class="section-copy" data-en="Start with a short brief, a WhatsApp message, or a note to Susana. Hola Homes will help you understand the best next step for buying, renting, or selling in central CDMX." data-es="Empieza con un brief corto, un mensaje por WhatsApp o una nota para Susana. Hola Homes te ayuda a entender el mejor siguiente paso para comprar, rentar o vender en el centro de CDMX.">Start with a short brief, a WhatsApp message, or a note to Susana. Hola Homes will help you understand the best next step for buying, renting, or selling in central CDMX.</p>
         <div class="contact-list">
-          <a href="mailto:susana@holahomesmx.com">susana@holahomesmx.com</a>
+          <a href="mailto:sulibeth0310@gmail.com">sulibeth0310@gmail.com</a>
           <a href="https://wa.me/525533219014">WhatsApp: +52 55 3321 9014</a>
           <a href="https://holahomesmx.com">holahomesmx.com</a>
         </div>
@@ -338,7 +410,7 @@
       <p data-en="Send a message with what you are looking for. Hola Homes will help you understand the best next move." data-es="Envía un mensaje con lo que estás buscando. Hola Homes te ayuda a entender el mejor siguiente paso.">Send a message with what you are looking for. Hola Homes will help you understand the best next move.</p>
       <div class="hero-actions">
         <a class="button" href="https://wa.me/525533219014" data-en="Message on WhatsApp" data-es="Escribir por WhatsApp">Message on WhatsApp</a>
-        <a class="button secondary" href="mailto:susana@holahomesmx.com">susana@holahomesmx.com</a>
+        <a class="button secondary" href="mailto:sulibeth0310@gmail.com">sulibeth0310@gmail.com</a>
       </div>
     </section>
   </main>
@@ -352,7 +424,7 @@
       <p data-en="Making Mexico Home." data-es="Haciendo de México tu hogar.">Making Mexico Home.</p>
     </div>
     <div class="footer-links">
-      <a href="mailto:susana@holahomesmx.com">susana@holahomesmx.com</a>
+      <a href="mailto:sulibeth0310@gmail.com">sulibeth0310@gmail.com</a>
       <a href="https://wa.me/525533219014">+52 55 3321 9014</a>
       <span>&copy; <span id="year">2026</span> Hola Homes</span>
     </div>
