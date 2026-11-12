@@ -79,6 +79,16 @@
           <label><span data-en="Email" data-es="Correo electrónico">Correo electrónico</span>
             <input type="email" name="email" autocomplete="email" required>
           </label>
+          <label><span data-en="How did you find us?" data-es="¿Cómo nos encontraste?">¿Cómo nos encontraste?</span>
+            <select name="source">
+              <option value="">Elige una (opcional)</option>
+              <option value="Google search">Búsqueda en Google</option>
+              <option value="Google Maps">Google Maps</option>
+              <option value="Instagram">Instagram</option>
+              <option value="Referral / friend">Recomendación de un amigo</option>
+              <option value="Other">Otro</option>
+            </select>
+          </label>
           <p class="guide-error" id="guide-error" data-en="Please add your name and a valid email." data-es="Agrega tu nombre y un correo válido.">Agrega tu nombre y un correo válido.</p>
           <button class="button" type="submit" data-en="Get the free guide" data-es="Recibe la guía gratis">Recibe la guía gratis</button>
           <p class="guide-fine" data-en="We'll email you occasionally about buying in Mexico City. Unsubscribe anytime." data-es="Te escribiremos de vez en cuando sobre comprar en la CDMX. Puedes darte de baja cuando quieras.">Te escribiremos de vez en cuando sobre comprar en la CDMX. Puedes darte de baja cuando quieras.</p>
@@ -140,7 +150,7 @@
   <script>
     // Leads go to a Google Form (responses land in a Google Sheet).
     var FORM_ACTION = "https://docs.google.com/forms/d/e/1FAIpQLScPsg7gQNpbuEWOrpFRjXGxgvrTltYdTTAnh92O14DPyYBiGQ/formResponse";
-    var FIELDS = { name: "entry.1205148702", email: "entry.1578641801" };
+    var FIELDS = { name: "entry.1205148702", email: "entry.1578641801", source: "entry.1825798226" };
     var form = document.getElementById("guide-form");
     form.addEventListener("submit", function (e) {
       e.preventDefault();
@@ -151,7 +161,10 @@
       var data = new FormData();
       data.append(FIELDS.name, name);
       data.append(FIELDS.email, email);
+      var source = form.elements.source.value;
+      if (source) data.append(FIELDS.source, source);
       fetch(FORM_ACTION, { method: "POST", mode: "no-cors", body: data }).catch(function () {});
+      if (window.gtag) gtag("event", "generate_lead", { lead_source: source || "not given", form: "financing_guide" });
       document.getElementById("guide").classList.add("guide-done");
     });
   </script>
